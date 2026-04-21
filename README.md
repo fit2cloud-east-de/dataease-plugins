@@ -49,13 +49,12 @@ extensions/
 
 ## 🛠️ 注意事项
 1. 必须包含 data.yaml、logo.png、README.md 以及至少一个版本目录（如 1.0.0）。如果有多个版本，则需创建相应数量的版本目录，例如 1.0.0、1.0.1 等。
-2. README.md 文件应详细描述插件信息，包括但不限于插件介绍、功能、使用说明、参数说明及调用示例。其中引用的所有图片或 GIF 需托管于公网地址上（例如 OSS 或网盘）以便正确显示。
-3. 对于插件类模板，务必在 README.md 中明确记录输入输出参数及其调用方法；对于智能体类，若存在父子嵌套结构，需在 README.md 中清晰描述其调用关系，并确保被调用的子智能体文件也存储于公网地址（如 OSS 或网盘）。
-4. 在 data.yaml 文件中：
-   - name: 插件名称，例如“合同审核智能体”。
-   - tags: 与 tools 下的 data.yaml 中保持一致，例如 ["数据源插件"]。可参考https://apps.fit2cloud.com/dataease 分类标签，切勿写错字。
+2. README.md 文件应详细描述插件信息，包括但不限于插件介绍、功能、使用说明、参数说明及调用示例。
+3. 在 data.yaml 文件中：
+   - name: 插件名称，例如“TDEngine 数据源插件”。
+   - tags: 与 extensions 下的 data.yaml 中保持一致，例如 ["数据源插件"]。可参考https://apps.fit2cloud.com/dataease 分类标签，切勿写错字。
    - title: 在插件商店展示的简短描述，例如“用于审核合同内容并提供智能建议的应用。”
-   - edition: 插件适用的 DataEase 版本类型，例如 community 或 enterprise，需与插件实际支持的发行版保持一致
+   - edition: 插件适用的 DataEase 版本类型，当前仅支持 enterprise
    - dataease_version: 插件要求的最低 DataEase 版本
    - description: 导入到 DataEase 的详细描述，可以与 title 相同。
 ```yaml
