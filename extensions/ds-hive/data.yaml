@@ -1,0 +1,7 @@
+name: Apache Hive 数据源插件
+tags:
+  - 数据源插件
+title: Apache Hive 数据源插件
+edition: enterprise
+dataease_version: 2.10.21
+description: Apache Hive 数据源插件
