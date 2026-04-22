@@ -1,0 +1,7 @@
+name: 散点连线图插件
+tags:
+  - 图表插件
+title: 散点连线图插件
+edition: enterprise
+dataease_version: 2.10.17
+description: 散点连线图视图插件，支持按时间字段进行顺序连线
