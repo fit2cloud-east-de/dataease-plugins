@@ -1,0 +1,7 @@
+name: PostgreSQL 数据填报插件
+tags:
+  - 数据填报插件
+title: PostgreSQL 数据填报插件
+edition: enterprise
+dataease_version: 2.10.21
+description: PostgreSQL 数据填报插件
