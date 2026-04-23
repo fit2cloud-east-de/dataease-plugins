@@ -10,7 +10,7 @@
 
 上传插件（插件：scat-backend-2.10.22.jar，可联系管理员获取插件），若插件已经上传，无需重新上传。
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img.png
+<img src ="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img.png">
 
 上传插件后需重启 DataEase 服务，进入部署 DataEase 所在服务器的后台，执行以下命令：
 
@@ -22,19 +22,20 @@ docker restart dataease
 
 创建仪表板/数据大屏，选择缩略散点图。
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img2.png
+
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img2.png">
 
 ### 步骤四：准备数据
 
 选择数据集，并配置维度数据。
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img3.png
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img3.png">
 
 缩略散点图的本质，是在二维平面上，以点为载体，同时展示「类别 / 维度、两个数值指标（X/Y 轴）、可选的气泡大小 / 颜色指标」的多维度数据分布可视化工具，它的核心逻辑是通过点和对应的属性数据来传递信息，更侧重于二维指标的关联与分布展示。
 
 字段说明:
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img4.png
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img4.png">
 
 ***注意:如果横轴 / 纵轴的数值字段存在 NULL、空字符串，会导致图表加载失败。***
 
@@ -56,7 +57,7 @@ https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view
 
 基于以上数据创建数据集：
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img5.png
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img5.png">
 
 ## 二、样式配置
 
@@ -64,7 +65,7 @@ https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view
 
 配置图表标题的样式属性。
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img6.png
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img6.png">
 
 ### 2. 基础样式
 
@@ -86,29 +87,29 @@ https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view
 
 注意:不建议勾选「单一配色」，否则所有散点颜色一致，无法通过颜色区分不同类别数据。推荐使用预设配色方案，按分组顺序自动分配颜色，提升数据辨识度。
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img7.png
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img7.png">
 
 ### 3. 背景样式
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img8.png
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img8.png">
 
 支持更换背景颜色,可以定义上传图片作为背景,也可以更换边框
 
 ### 4. 标签样式
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img9.png
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img9.png">
 
 可以设置标签的颜色
 
 ### 5. 提示样式
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img10.png
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img10.png">
 
 可以更换背景颜色和十字准线颜色,更改缩略半径
 
 ### 6. 横轴与纵轴样式
 
-https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img11.png
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img11.png">
 
 支持显示轴名称,轴值可以修改为自动值,轴线可以改为实线,虚线和点,可以显示网格线
 
