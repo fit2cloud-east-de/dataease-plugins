@@ -37,6 +37,8 @@ docker restart dataease
 
 <img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img4.png" alt="字段说明">
 
+
+
 ***注意:如果横轴 / 纵轴的数值字段存在 NULL、空字符串，会导致图表加载失败。***
 
 数据示例：
@@ -98,6 +100,8 @@ docker restart dataease
 ### 4. 标签样式
 
 <img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img9.png" alt="标签样式">
+
+
 
 可以设置标签的颜色
 
