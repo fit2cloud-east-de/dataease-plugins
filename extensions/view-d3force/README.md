@@ -10,7 +10,7 @@
 
 上传插件（插件：d3force-backend-2.10.8.jar，可联系管理员获取插件），若插件已经上传，无需重新上传。
 
-![截图3](images/截图3.png)
+![](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE3.png)
 
 上传插件后需重启 DataEase 服务，进入部署 DataEase 所在服务器的后台，执行以下命令：
 
@@ -22,13 +22,13 @@ docker restart dataease
 
 创建仪表板/数据大屏，选择力导向图。
 
-![截图4](images/截图4.png)
+![](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE4.png)
 
 ### 步骤四：准备数据
 
 选择数据集，并配置维度数据。
 
-![截图5](images/截图5.png)
+![](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE5.png)
 
 力导向图本质上是从起点到终点的点和边的数据的展示，因此，使用力导向图进行数据展示，数据中需要包含起点数据（起始点的 ID、Team、Label、Tip）、终点数据（终点的 ID、Team、Label、Tip）、以及边的标签数据（起点到终点的条线标签）。
 
@@ -72,7 +72,7 @@ docker restart dataease
 
 基于以上数据创建数据集：
 
-![image-2025-6-19_14-26-10](images/image-2025-6-19_14-26-10.png)
+![](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE11.png)
 
 ---
 
@@ -82,7 +82,7 @@ docker restart dataease
 
 配置图表标题的样式属性。
 
-![截图6](images/截图6.png)
+![](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE6.png)
 
 ### 2. 基础样式
 
@@ -105,13 +105,13 @@ docker restart dataease
 
 > ⚠️ 注：当节点数据过多时，建议关闭【是否使用自定义配置】，并将【节点大小】调至 10 以内。
 
-![截图7](images/截图7.png)
+![](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE7.png)
 
 ### 3. 背景样式
 
 支持配置视图的内边距、圆角、背景模糊、背景颜色、背景图片、背景边框等样式属性。
 
-![截图8](images/截图8.png)
+![截图8](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE8.png)
 
 ### 4. 标签属性样式
 
@@ -125,7 +125,7 @@ docker restart dataease
 
 > ⚠️ 注：当节点数据过多时，建议关闭【是否显示节点标签】和【是否显示边标签】。可通过鼠标点击节点触发提示窗口展示，通过提示信息查看节点信息。
 
-![截图9](images/截图9.png)
+![截图9](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE9.png)
 
 ### 5. 提示样式
 
@@ -138,5 +138,5 @@ docker restart dataease
 - **关联的边和节点高亮**：控制鼠标移动至节点上方时，是否显示此节点关联的边和节点呈现高亮的样式
 - **提示窗高度**：控制提示窗口的高度（取值范围：30-1000）
 
-![截图10](images/截图10.png)
+![截图10](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE10.png)
 
