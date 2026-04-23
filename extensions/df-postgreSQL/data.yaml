@@ -1,6 +1,6 @@
 name: PostgreSQL 数据填报插件
 title: PostgreSQL 数据填报插件
-description: PostgreSQL 数据填报插件，推荐使用 DataEase v2.10.21 版本
+description: PostgreSQL 数据填报插件，推荐使用 DataEase v2.10.21 及以上版本
 tags:
   - 数据填报插件
 additionalProperties:
