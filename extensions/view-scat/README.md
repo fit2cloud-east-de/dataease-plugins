@@ -35,7 +35,7 @@ docker restart dataease
 
 字段说明:
 
-<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img4.png" alt="字段说明">
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img4.png" alt="字段说明" style="max-width: 100%; height: auto;">
 
 
 
