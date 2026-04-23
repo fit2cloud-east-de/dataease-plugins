@@ -10,7 +10,7 @@
 
 上传插件（插件：d3force-backend-2.10.8.jar，可联系管理员获取插件），若插件已经上传，无需重新上传。
 
-![](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE3.png?q-sign-algorithm=sha1&q-ak=AKIDg7Ms75EFUS8XqsmZDagXMxHK7dsqmWUG&q-sign-time=1776932636%3B1776936236&q-key-time=1776932636%3B1776936236&q-header-list=host&q-url-param-list=&q-signature=129c2edfb39686ca43f2a494354b9499b40a3f6d)
+![](https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-d3force/%E6%88%AA%E5%9B%BE3.png)
 
 上传插件后需重启 DataEase 服务，进入部署 DataEase 所在服务器的后台，执行以下命令：
 
