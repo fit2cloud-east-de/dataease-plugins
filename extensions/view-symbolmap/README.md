@@ -20,12 +20,14 @@
 | 省市指标数据 | 指标                     |
 
 <img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-symbolmap/img_1.png">
+
 ### 步骤四：样式设置
 
 #### 基础样式
 可设置省市区划底图的配色方案、不透明度、地图风格、地图边界线的颜色，以及是否显示区划的标签名称。
 
 <img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-symbolmap/img_2.png">
+
 #### 线条设置
 可设置流向地图的线条类型、线条宽度、线条渐变色、线条不透明度、是否开启线条动画，以及线条动画的时间间隔。
 
