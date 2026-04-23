@@ -99,7 +99,7 @@ docker restart dataease
 
 ### 4. 标签样式
 
-<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img9.png" alt="标签样式">
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img9%282%29.png" alt="标签样式">
 
 
 
