@@ -35,7 +35,7 @@ docker restart dataease
 
 字段说明:
 
-<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img4.png" alt="字段说明" style="max-width: 100%; height: auto;">
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img4.png" alt="字段说明" style="max-width: 100%; height: auto;" />
 
 
 
@@ -59,7 +59,7 @@ docker restart dataease
 
 基于以上数据创建数据集：
 
-<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img5.png" alt="数据集图片">
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img5.png" alt="数据集图片" />
 
 ## 二、样式配置
 
@@ -67,7 +67,7 @@ docker restart dataease
 
 配置图表标题的样式属性。
 
-<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img6.png" alt="标题样式">
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img6.png" alt="标题样式" />
 
 ### 2. 基础样式
 
