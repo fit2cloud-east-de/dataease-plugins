@@ -1,7 +1,7 @@
 name: 符号地图插件
+title: 符号地图插件
 tags:
   - 图表插件
-title: 符号地图插件
 edition: enterprise
 dataease_version: 2.10.22
-description: 符号地图视图插件，支持流向地图展示
+description: 符号地图视图插件，支持流向地图展示，推荐使用 DataEase v2.10.22 版本

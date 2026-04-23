@@ -51,20 +51,20 @@ extensions/
 1. 必须包含 data.yaml、logo.png、README.md 以及至少一个版本目录（如 1.0.0）。如果有多个版本，则需创建相应数量的版本目录，例如 1.0.0、1.0.1 等。
 2. README.md 文件应详细描述插件信息，包括但不限于插件介绍、功能、使用说明、参数说明及调用示例。
 3. 在 data.yaml 文件中：
-   - name: 插件名称，例如“TDEngine 数据源插件”。
-   - tags: 与 extensions 下的 data.yaml 中保持一致，例如 ["数据源插件"]。可参考https://apps.fit2cloud.com/dataease 分类标签，切勿写错字。
-   - title: 在插件商店展示的简短描述，例如“用于审核合同内容并提供智能建议的应用。”
-   - edition: 插件适用的 DataEase 版本类型，当前仅支持 enterprise
-   - dataease_version: 插件要求的最低 DataEase 版本
+   - name: 插件名称，例如“Oracle 数据填报插件”。
+   - title: 在插件商店展示的简短描述。
    - description: 导入到 DataEase 的详细描述，可以与 title 相同。
+   - tags: 与 extensions 下的 data.yaml 中保持一致，例如 ["数据源插件"]。可参考https://apps.fit2cloud.com/dataease 分类标签，切勿写错字。
+   - additionalProperties: 扩展字段
+     - dataease_version: 是否为企业版功能
 ```yaml
-name: TDEngine 数据源插件
+name: Oracle 数据填报插件
+title: Oracle 数据填报插件
+description: 基于 Oracle 21c 开发，推荐使用 DataEase v2.10.21 版本
 tags:
-  - 数据源插件
-title: TDEngine 数据源插件
-edition: enterprise
-dataease_version: 2.10.21
-description: 基于 TDEngine 3.3.6.13 开发
+  - 数据填报插件
+additionalProperties:
+  enterprise: true
 ```
 
 ## 🤝 贡献指南

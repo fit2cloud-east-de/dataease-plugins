@@ -1,7 +1,7 @@
 name: Oracle 数据填报插件
+title: Oracle 数据填报插件
+description: 基于 Oracle 21c 开发，推荐使用 DataEase v2.10.21 版本
 tags:
   - 数据填报插件
-title: Oracle 数据填报插件
-edition: enterprise
-dataease_version: 2.10.21
-description: 基于 Oracle 21c 开发
+additionalProperties:
+  enterprise: true
