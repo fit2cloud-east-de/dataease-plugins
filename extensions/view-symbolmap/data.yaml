@@ -3,5 +3,5 @@ tags:
   - 图表插件
 title: 符号地图插件
 edition: enterprise
-dataease_version: 2.10.22
+dataease_version: 2.10.12
 description: 符号地图视图插件，支持流向地图展示
