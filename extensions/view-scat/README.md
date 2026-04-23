@@ -29,13 +29,13 @@ docker restart dataease
 
 选择数据集，并配置维度数据。
 
-<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img3.png" alt="准备数据" style="max-width: 100%; height: auto;" />
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img3%282%29.png" alt="准备数据" />
 
 缩略散点图的本质，是在二维平面上，以点为载体，同时展示「类别 / 维度、两个数值指标（X/Y 轴）、可选的气泡大小 / 颜色指标」的多维度数据分布可视化工具，它的核心逻辑是通过点和对应的属性数据来传递信息，更侧重于二维指标的关联与分布展示。
 
 字段说明:
 
-<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img4.png" alt="字段说明" style="max-width: 100%; height: auto;" />
+<img src="https://north-dataease-1251506367.cos.ap-beijing.myqcloud.com/apps-dataease/view-scat/img4.png" alt="字段说明">
 
 
 
