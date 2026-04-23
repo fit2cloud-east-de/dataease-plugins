@@ -4,4 +4,4 @@ tags:
 title: 缩略象限图插件
 edition: enterprise
 dataease_version: 2.10.22
-description: 缩略象限图视图插件，支持缩略轴与节点数据弹窗展示
+description: 缩略散点图视图插件，支持缩略轴与节点数据弹窗展示
